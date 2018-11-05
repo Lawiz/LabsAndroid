@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/SetKeytextView"
+            android:layout_width="261dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:text="Key"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/SetKeyEditView"
+            android:layout_width="261dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Set key"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <TextView
+            android:id="@+id/SetValuetextView"
+            android:layout_width="259dp"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:text="Value"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="77dp" />
+
+        <EditText
+            android:id="@+id/SetValueEditText"
+            android:layout_width="259dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Set value"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <Button
+            android:id="@+id/SaveButton"
+            android:layout_width="235dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:onClick="SaveButton"
+            android:text="Save"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="166dp" />
+
+        <TextView
+            android:id="@+id/GetKeyTextView"
+            android:layout_width="262dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:text="Key"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="232dp" />
+
+        <EditText
+            android:id="@+id/GetKeyEditText"
+            android:layout_width="263dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Input key"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="268dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="260dp"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:text="Value"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="314dp" />
+
+        <EditText
+            android:id="@+id/GetValueEditText"
+            android:layout_width="262dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Input value"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="347dp" />
+
+        <Button
+            android:id="@+id/GetPairbutton"
+            android:layout_width="239dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="GetPair"
+            android:text="Get pair"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="411dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:text="Absolute:"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                />
+            <TextView
+                android:id="@+id/AbsoluteView"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text=" "/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Name:"
+                />
+            <TextView
+                android:id="@+id/NameView"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Path:"
+                />
+            <TextView
+                android:id="@+id/PathView"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Read/Write:"
+                />
+            <TextView
+                android:id="@+id/ReadWriteView"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="External:"
+                />
+            <TextView
+                android:id="@+id/ExternalView"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="GetFilesDir"
+                android:onClick="GetFilesDir"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="GetCachDir"
+                android:onClick="GetCachDir"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="GetExternalFilesDir"
+                android:onClick="GetExternalFilesDir"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="GetExternalCachDir"
+                android:onClick="GetExternalCachDir"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:text="GetExternalStoragepublicDericroy"
+                android:onClick="GetExternalStoragepublicDericroy"
+                />
+        </TableRow>
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
